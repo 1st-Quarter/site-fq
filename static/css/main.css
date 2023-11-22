@@ -104,4 +104,6 @@ h1 {
     margin-right: 16px;
     font-family: 'Space Grotesk', sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
 }

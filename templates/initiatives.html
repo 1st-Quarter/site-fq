@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>First Quarter</title>
+{% endblock %}
+
+{% block body %}
+<div class="main-container initiatives">
+    <div class="navbar-container">
+        <div class="navbar-item">
+            <p><a href="/" class="styled-link">home</a></p>
+            <p><a href="/about" class="styled-link">about</a></p>
+            <p><a href="/partners" class="styled-link">partners</a></p>
+            <p><a href="/initiatives" class="styled-link">initiatives</a></p>
+            <p><a href="/contribute" class="styled-link">contribute</a></p>
+        </div>
+    </div>
+    <div class="hero-container">
+        <img src="../static/images/hero-text-initiatives.svg" width="40%">
+        <div class="button-container">
+            <p>our thesis</p>
+            <img src="static/images/arrow.svg" width="16px">
+        </div>
+        <!-- <h1 class="hero-text">First<br>Quarter</h1> -->
+    </div>
+</div>
+{% endblock %}

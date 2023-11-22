@@ -23,6 +23,22 @@ body {
     background-image: url('../images/home-bg.png');
 }
 
+.main-container.about {
+    background-image: url('../images/about-bg.png');
+}
+
+.main-container.contribute {
+    background-image: url('../images/contribute-bg.png');
+}
+
+.main-container.partners {
+    background-image: url('../images/partners-bg.png');
+}
+
+.main-container.initiatives {
+    background-image: url('../images/initiatives-bg.png');
+}
+
 .navbar-container {
     display:flex;
     flex-direction: column;
@@ -35,6 +51,15 @@ body {
     color: white;
 }
 
+.styled-link {
+    text-decoration: none;
+    color: white;
+}
+
+.styled-link.light {
+    color: black;
+}
+
 .hero-container {
     position:absolute;
     bottom: 0;
@@ -45,6 +70,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 16px;
+    padding-left: 16px;
 }
 
 h1 {
@@ -62,7 +88,7 @@ h1 {
     gap: 16px;
     font-size: 16pt;
     color: white;
-    margin-right: 16px;
+    margin-right: 32px;
     margin-bottom: -16px;
 }
 
@@ -71,4 +97,11 @@ h1 {
     background-clip: text;
     background-size: cover;
     color: rgba(0, 0, 0, 0.1);
+}
+
+.about-blurb-container {
+    width: 40%;
+    margin-right: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    color: white;
 }
